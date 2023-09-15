@@ -1,0 +1,39 @@
+body{
+    font-family:sans-serif;
+    background:url(https://c4.wallpaperflare.com/wallpaper/286/149/288/iron-man-thor-captain-america-hulk-wallpaper-preview.jpg),
+    linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card{
+    width: 250px;
+    height: 350px;
+    border : 1px solid gray;
+}
+.photo{
+    width: 80px;
+    border-radius: 50px;
+
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.card-btn{
+    background-color: rgb(112, 143, 143);
+}
+
+.home-container{
+    display: flex;
+}
+
+.card-container{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap :15px;
+}
